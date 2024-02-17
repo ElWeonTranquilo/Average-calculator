@@ -1,0 +1,5 @@
+Data = list(map(float, input("Put data here:").split(" ")))
+N = len(Data)
+Add = sum(Data)
+print("The average is:")
+print((Add / N))
